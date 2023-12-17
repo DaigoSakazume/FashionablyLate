@@ -1,0 +1,48 @@
+.thanks {
+    position: relative;
+    top: 47vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 1381px;
+    height: 365px;
+    text-align: center;
+}
+
+.thanks_front {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #8b7969;
+    font-weight: bold;
+    font-family: 'Inika';
+    font-size: 1.5vw;
+}
+
+.thanks_background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 1381px;
+    height: 365px;
+    font-family: 'Inika';
+    color: #8B79690D;
+    font-size: 280px;
+}
+
+button{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-82%);
+    font-family: 'Inika';
+    padding: 10px;
+    width: 10%;
+    height: 50px;
+    border: none;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
